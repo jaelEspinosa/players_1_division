@@ -1,0 +1,31 @@
+nav{
+  /* background-color: gray; */
+  /* background-image: url("https://s1.1zoom.me/b4954/121/Footbal_Lawn_Ball_562140_3840x2160.jpg"); */
+  background-image: url("/assets/images/cesped.jpg");
+  background-position:bottom;
+
+
+
+  ul{
+
+    font-weight: bold;
+    font-size: 48px;
+    text-shadow: 10px 10px 10px rgba(255, 255, 0, 0.555);
+    height:10vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  a{
+    color:yellow;
+    text-transform: uppercase;
+
+  }
+  a:hover{
+    text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.397);
+    color:red;
+    transition:0.5s;
+  }
+  }
+
+}
+

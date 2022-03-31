@@ -1,0 +1,11 @@
+
+<h1>players</h1>
+<section class="figure-background">
+ <div class="card-container">
+<figure class = "card"*ngFor="let player of players">
+  <h3>{{player.id}}-{{player.name}}</h3>
+  <a [routerLink] ="['/players/', player.id]">Detalle</a>
+</figure>
+</div>
+
+</section>

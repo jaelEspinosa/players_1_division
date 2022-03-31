@@ -1,0 +1,33 @@
+
+.figure-background{
+  height: 100%;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .card{
+      background-color: rgba(128, 128, 128, 0.5);
+      text-transform: uppercase;
+      border: 5px solid rgb(83, 81, 81);
+      border-radius: 20px;
+      box-shadow: 10px 10px 10px rgba(207, 202, 202, 0.521);
+      padding:20px;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      gap: 15px;
+      overflow: hidden;
+      img{
+        height: 350px;
+        border-radius: 20px;;
+      }
+      .paraf{
+        font-size: 24px;
+        font-weight:normal;
+        text-transform: capitalize;
+      }
+    }
+
+}
